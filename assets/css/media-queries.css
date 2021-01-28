@@ -1,0 +1,204 @@
+
+@media only screen and (min-width: 992px) {
+
+	.tp {
+		font-size: xx-large;
+	}
+
+	.three {
+		/* margin-top: 50px; */
+		margin-left: 130px;
+	}
+	
+	.top-content {
+		margin-left: 60px;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1425px) {
+    .img-bg {
+	/*max-width: 63.68%;*/
+}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+	.top-content {
+		margin-left: 60px;
+	}
+
+
+
+
+
+
+	.section-1-box .section-1-box-icon { width: 60px; height: 60px; font-size: 32px; line-height: 60px; }
+	
+	.top-content .carousel-caption { bottom: 100px; }
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.navbar-expand-md .navbar-nav .nav-link { padding-left: 0.6rem; padding-right: 0.6rem; }
+	
+	.top-content .carousel-caption { bottom: 60px; }
+
+	.section-description p { padding: 0; }
+	
+	.section-1-box .section-1-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; }
+	
+	.section-3-box .section-3-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; }
+
+}
+
+@media (max-width: 767px) {
+    
+    .lg-3 {
+        display:none;
+    }
+    
+    .small {
+        display:inline;
+    }
+    
+    .test {
+        display:inline;
+    }
+    
+    .card {
+
+	width: 330px;
+	
+  }
+
+	.carousel-inner2 {
+	
+		width: 350px;
+		height: 350px;
+	}
+	
+
+.sp {
+	margin-left: 50px;
+}
+
+.booking{
+	margin-left: 90px;
+}
+
+.top-content {
+	margin-left: 15px;
+	
+}
+
+.hide {
+	display: none;
+}
+
+
+.carousel-inner {
+	width: 400px;
+	height: 191px;
+}
+
+.three {
+	margin-top: 50px;
+	margin-left: 0px;
+}
+
+.size {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.gallery {
+	margin-left: 25px;
+	margin-right: 50px;
+}
+
+.about {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.gap {
+	display: none;
+}
+	
+	.navbar.navbar-no-bg { background: #ffffff; }
+	.navbar-dark .navbar-toggler { border-color: #444; }
+	.navbar-dark .navbar-toggler:focus { background: #333; outline: 0; }
+	.navbar-expand-md .navbar-nav .nav-link { padding-top: 0.3rem; padding-bottom: 0.3rem; }
+	
+	.top-content .carousel-caption { bottom: 20px; }
+	.top-content .carousel-indicators { display: none; }
+	.top-content h1 { font-size: 22px; }
+	.top-content .description { margin: 10px 0 0 0; }
+	.top-content button.btn-customized { width: 40px; height: 40px; margin-top: 0.5rem; line-height: 40px; }
+	
+	.section-description p { padding: 0; }
+	
+	.section-1-container { padding-bottom: 60px; }
+	.section-1-box { text-align: center; }
+	.section-1-box h3 { margin-top: 20px; padding-top: 10px; }
+	
+	.section-3-box { text-align: center; }
+	.section-3-box h3 { margin-top: 20px; padding-top: 10px; }
+	
+}
+
+@media (min-width: 360px) and (max-width: 420px) {
+    .card {
+
+	width: 300px;
+	
+  }
+  
+  .gallery {
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+.carousel-inner {
+	width: 350px;
+	height: 167px;
+}
+}
+
+@media (max-width: 575px) {
+	
+	.top-content .carousel-caption { bottom: 0; }
+	.top-content h1 { font-size: 18px; line-height: 30px; }
+	.top-content .description { display: none; }
+	.top-content button.btn-customized { width: 36px; height: 36px; margin-top: 0; line-height: 36px; }
+
+}
+
+@media (max-width: 415px) {
+	
+	h1, h2 { font-size: 32px; }
+	
+	.top-content h1 { font-size: 18px; }
+
+}
+
+
+/* Retina-ize images/icons */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+	
+	/* logo */
+    .navbar-brand {
+    	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 123px 34px !important;
+    }
+	
+}
